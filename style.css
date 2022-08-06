@@ -1,0 +1,124 @@
+body {
+    overflow: hidden;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.row div {
+    margin: 5px;
+    ;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 5px;
+}
+
+.title h1 {
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.title p {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.title button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.subt {
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.btn2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.y {
+    color: #fff;
+    background-color: rgb(159, 59, 195) !important;
+    transition: .5s;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.btn3 {
+    background-color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.won {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+
+}
+.won__title {
+    color: #fff;
+    font-size: 40px;
+    width: 250px;
+}
+
+span {
+    color: rgb(246, 238, 1);
+}
+.massage {
+
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.none {
+    display: none;
+}

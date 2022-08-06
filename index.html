@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>numbers</title>
+</head>
+
+<body>
+    <div class="first">
+        <div class="num">
+            <div class="row">
+                <div>19</div>
+                <div>16</div>
+                <div>27</div>
+                <div>4</div>
+                <div>6</div>
+            </div>
+            <div class="row">
+                <div>5</div>
+                <div>25</div>
+                <div>26</div>
+                <div>9</div>
+                <div>8</div>
+            </div>
+            <div class="row">
+                <div>24</div>
+                <div>10</div>
+                <div>28</div>
+                <div>2</div>
+                <div>11</div>
+            </div>
+            <div class="row">
+                <div>12</div>
+                <div>17</div>
+                <div>21</div>
+                <div>29</div>
+                <div>15</div>
+            </div>
+            <div class="row">
+                <div>18</div>
+                <div>22</div>
+                <div>7</div>
+                <div>13</div>
+                <div>14</div>
+            </div>
+        </div>
+
+        <div class="title">
+            <h1>Квадрат заполнен числами<br>
+                от 1 до 30, но 5 из них<br>
+                отсутствуют.</h1>
+            <p>Найдите отсутствующие числа и нажмите<br>
+                кнопку 'Дальше'</p>
+
+            <button class="btn">ДАЛЬШЕ</button>
+        </div>
+    </div>
+
+
+    <div class="second none">
+        <div class="num">
+            <div class="row">
+                <div class="select cur">1</div>
+                <div class="select">6</div>
+                <div class="select">11</div>
+                <div class="select">16</div>
+                <div class="select">21</div>
+                <div class="select">26</div>
+            </div>
+            <div class="row">
+                <div class="select">2</div>
+                <div class="select">7</div>
+                <div class="select">12</div>
+                <div class="select">17</div>
+                <div class="select">22</div>
+                <div class="select">27</div>
+            </div>
+            <div class="row">
+                <div class="select cur">3</div>
+                <div class="select">8</div>
+                <div class="select">13</div>
+                <div class="select">18</div>
+                <div class="select cur">23</div>
+                <div class="select">29</div>
+            </div>
+            <div class="row">
+                <div class="select">4</div>
+                <div class="select">9</div>
+                <div class="select">14</div>
+                <div class="select">19</div>
+                <div class="select">24</div>
+                <div class="select">29</div>
+            </div>
+            <div class="row">
+                <div class="select">5</div>
+                <div class="select">10</div>
+                <div class="select">15</div>
+                <div class="select cur">20</div>
+                <div class="select">25</div>
+                <div class="select cur">30</div>
+            </div>
+        </div>
+
+        <div class="subt">
+            Выберите 5 чисел и <br>
+            нажмите 'Проверить'.
+
+            <button class="btn2" disabled>ПРОВЕРИТЬ</button>
+        </div>
+
+    </div>
+
+
+
+    <div class="popap none">
+        <div class="one">
+            <h1>Вы проиграли</h1>
+            <button class="btn3 rep">Попробывать снова</button>
+        </div>
+    </div>
+
+
+
+    <div class="won none ">
+        <div class="massage">
+            <p class="won__title">Вы выйграли!<br>
+                Вторая цифра кода: <span>0</span></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
